@@ -1,0 +1,126 @@
+body{
+    margin: 0%;
+    background-color:black;
+    background-image:  url(image_2024-03-15_20-31-45.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+nav{
+    padding: 40px 0;
+    background-color:rgba(97, 12, 17, 0.13);
+    text-align: center;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 2rem;
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    
+    
+}
+nav ul{
+    display: inline-flex;
+
+}
+nav ul li a:hover{
+    background-color: red;
+    border-radius: 15%;
+    padding: 20px 30px;
+
+    
+}
+.movie-reviw{
+    text-align: center;
+}
+.movie-reviw h1{
+    color: white;
+    font-size: 30px;
+}
+.movie-reviw img{
+    width: 90%;
+    border-radius: 1%;
+}
+.movies_list h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.flex-contaner p{
+    font-size: 30px;
+    color: aliceblue;
+    
+}
+.flex-contaner video{
+    border-radius: 10%;
+    height: 400px;
+    width: 90%;
+    display: flex;
+    padding: 0ch;
+    
+
+}
+
+.flex-contaner, .flex-movie, .flex-film{
+    width: 33.33%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding: 40px;
+}
+
+.flex-contaner:hover, .flex-movie:hover, .flex-film:hover{
+    background-color: #362727;
+    border-radius: 3%;
+}
+
+.flex-movie video{
+    width: 90%; 
+    height: 400px;
+    display: flex;
+    border-radius: 10%;
+    padding: 0ch;
+
+}
+.flex-movie p{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.flex-film video{
+    border-radius: 10%;
+    height: 400px;
+    width: 90%;
+    display: flex;
+    padding: 0ch;
+    
+
+}
+.flex-film p{
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+ }
